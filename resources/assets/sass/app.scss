@@ -1,0 +1,83 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import "~@fortawesome/fontawesome-free/css/all.css";
+// Variables
+@import 'variables';
+@import 'home';
+@import 'card';
+@import 'footer';
+@import 'admin';
+@import 'breadcrumb';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+
+
+[v-cloak] {
+  display: none;
+  transition: all 5ms;
+}
+
+body{
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.navbar-brand{
+  color: #006fb7 !important;
+}
+
+.nav-phone{
+  color:#0f4c8d !important;
+}
+.customer-body{
+  background-color: #FFFFFF !important;
+}
+
+
+#hero{
+
+  background-image: url("../img/ban.jpg");
+  background-size: cover;
+  background-position: center center;
+top: 0;
+  bottom: 0;
+  height: 450px;
+  margin-top: -30px;
+}
+
+#hero-over{
+  padding-top: 100px !important;
+  top: 0;
+  bottom: 0;
+  height: 450px;
+  background-color: rgba(0, 16, 28, 0.6) /* Black background with opacity */
+}
+
+#htext{
+  color: #fff;
+  font-size: 64px!important;
+  font-family: InterUI,-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans,sans-serif;
+    font-weight: 500;
+    line-height: 90%;
+}
+
+#txtsub{color: #fff;
+  font-size: 21px!important;
+  font-weight: 400!important;
+  font-family: InterUI,-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans,sans-serif;
+}
+
+
+.order-now{
+  margin-right: 2% !important;
+  margin-bottom: 10px !important;
+}
